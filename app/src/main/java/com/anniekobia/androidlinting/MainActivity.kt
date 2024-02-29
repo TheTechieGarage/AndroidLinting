@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
             AndroidLintingTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
+                    color = MaterialTheme.colorScheme.background,
                 ) {
                     Greeting(2, "\"Linting in Android\"")
                 }
@@ -39,26 +39,31 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(number: Int, topic: String) {
+fun Greeting(
+    number: Int,
+    topic: String,
+) {
     Box(
-        modifier = Modifier.fillMaxSize()
-            .padding(30.dp),
-        contentAlignment = Alignment.Center
+        modifier =
+            Modifier.fillMaxSize()
+                .padding(30.dp),
+        contentAlignment = Alignment.Center,
     ) {
-        val text = buildAnnotatedString {
-            append("You successfully ran ")
-            withStyle(style = SpanStyle(color = Color.Magenta)) {
-                append("The Techie Garage Episode $number")
+        val text =
+            buildAnnotatedString {
+                append("You successfully ran ")
+                withStyle(style = SpanStyle(color = Color.Magenta)) {
+                    append("The Techie Garage Episode $number")
+                }
+                append(" demo app on ")
+                withStyle(style = SpanStyle(color = Color.Magenta)) {
+                    append(topic)
+                }
             }
-            append(" demo app on ")
-            withStyle(style = SpanStyle(color = Color.Magenta)) {
-                append(topic)
-            }
-        }
         Text(
             text = text,
             fontSize = 20.sp,
-            textAlign = TextAlign.Center
+            textAlign = TextAlign.Center,
         )
     }
 }

@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
                 ) {
-                    Greeting(2, "\"Linting in Android\"")
+                    Greeting(3, "\"Linting in Android\"")
                 }
             }
         }

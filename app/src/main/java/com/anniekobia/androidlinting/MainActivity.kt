@@ -22,6 +22,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.anniekobia.androidlinting.ui.theme.AndroidLintingTheme
 
+/**
+ * Entry point, displays success message text
+ */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,7 +34,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
                 ) {
-                    Greeting(3, "\"Linting in Android\"")
+                    Greeting(number = 3, topic ="\"Linting in Android\"")
                 }
             }
         }

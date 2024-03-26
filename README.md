@@ -4,10 +4,10 @@ This repository contains the demo application for **[The Techie Garage Podcast](
 - How to integrate Ktlint in an android project (Part 2).
 
 ### 📚 Resources
-- [Episode Part 1: Code Analysis using Ktlint](https://youtu.be/qgcpmslBvvY)
+- [Episode Part 1: Code Analysis in Android: Ktlint](https://youtu.be/qgcpmslBvvY)
 - **Ktlint ->** [Documentation](https://pinterest.github.io/ktlint/latest/rules/code-styles/), [GitHub repository](https://github.com/pinterest/ktlint)
   
-- [Episode Part 2: Integrating and using Detekt](https://youtu.be/qgcpmslBvvY)
+- [Episode Part 2: Code Analysis in Android: Detekt](https://youtu.be/3uSq6sFzhQo)
 - **Detekt ->** [Documentation](https://detekt.dev/docs/intro), [GitHub repository](https://github.com/detekt/detekt), [Compatibility Table](https://detekt.dev/docs/introduction/compatibility)
 
 ### 📌 Considerations

@@ -1,7 +1,7 @@
 # 🛠️ Code Analysis in Android: Ktlint & Detekt -> TTG #3,#4 🛠️
 This repository contains the demo application for **[The Techie Garage Podcast](https://www.youtube.com/@thetechiegarage/videos)** Episode 3 and 4 on Linting in Android projects. In both personal projects and team projects, we want a level of uniformity and a codebase that follows recommended coding conventions when it comes to things such as naming, complexity of classes and functions etc. Linting tools help us with exactly that! The videos linked below use this repository to cover:
-- What linting is, its importance and how to integrate Ktlint in an android project (Part 1).
-- How to integrate Detekt in an android project (Part 2).
+- What linting is, its importance and how to integrate Ktlint in an android project (Part 1)
+- How to integrate Detekt in an android project (Part 2)
 
 ### 📚 Resources
 - [Episode Part 1: Code Analysis in Android: Ktlint](https://youtu.be/qgcpmslBvvY)

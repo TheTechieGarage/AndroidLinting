@@ -26,6 +26,7 @@ import com.anniekobia.androidlinting.ui.theme.AndroidLintingTheme
  * Entry point, displays success message text
  */
 class MainActivity : ComponentActivity() {
+    // Fixed failing lint
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -34,7 +35,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background,
                 ) {
-                    Greeting(number = 3, topic ="\"Linting in Android\"")
+                    Greeting(number = 3, topic = "\"Linting in Android\"")
                 }
             }
         }

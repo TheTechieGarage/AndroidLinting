@@ -26,8 +26,8 @@ import com.anniekobia.androidlinting.ui.theme.AndroidLintingTheme
  * Entry point, displays success message text
  */
 class MainActivity : ComponentActivity() {
-    override fun onCreate(
-        savedInstanceState: Bundle?) {
+    // Fixed failing lint
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
             AndroidLintingTheme {
